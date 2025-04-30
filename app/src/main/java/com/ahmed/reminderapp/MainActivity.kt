@@ -69,7 +69,7 @@ class MainActivity : ComponentActivity() {
                         schedule(timeInMillis, "تجربة")
                         Toast.makeText(
                             context,
-                            "تم ضبط المنبه على الساعه" + "${taskTime.hour},${taskTime.minute}",
+                            "تم ضبط المنبه على الساعه " + "${taskTime.hour}:${taskTime.minute}",
                             Toast.LENGTH_SHORT
                         ).show()
                     }) {
